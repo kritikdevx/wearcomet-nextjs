@@ -9,7 +9,7 @@ export default async function Home() {
         /* GraphQL */
         `
           query {
-            products(first: 10) {
+            products(first: 200) {
               edges {
                 node {
                   id
